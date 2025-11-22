@@ -1,0 +1,23 @@
+# Telegram Gemini Bot
+
+Simple Telegram bot that connects to Google Gemini AI.
+
+## Setup
+
+1. Install dependencies:
+pip install python-telegram-bot aiohttp requests
+
+2. Open bot.py and replace:
+- YOUR_TELEGRAM_BOT_TOKEN_HERE with token from @BotFather
+- YOUR_GEMINI_API_KEY_HERE with key from Google AI Studio
+
+3. Run the bot:
+python bot.py
+
+## Usage
+- Send any message to get Gemini response
+- /start - welcome message
+- /help - joke help
+
+## Note
+MVP version - no extra features included.
